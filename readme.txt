@@ -1,4 +1,4 @@
-===== third_party =====
+===== IMPORTED MODULES =====
 
 Code pulled into the monorepo from external sources.
 Kept separate to clearly distinguish it from my own code.
