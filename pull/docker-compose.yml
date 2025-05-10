@@ -26,7 +26,7 @@ services:
       replicas: 3
 
   mongodb:
-    image: mongo:8
+    image: mongo:8@sha256:2e018e386e891d2e4239aca6035fb7701dac51b72891247ecd2f95ff8a167859
     restart: unless-stopped
     ports:
       - "27017:27017"
@@ -37,7 +37,7 @@ services:
       - mongodb-data:/data/db
 
   redis:
-    image: redis:7.4
+    image: redis:7.4@sha256:7df1eeff67eb0ba84f6b9d2940765a6bb1158081426745c185a03b1507de6a09
     restart: unless-stopped
     ports:
       - "6379:6379"
