@@ -10,7 +10,7 @@ services:
       unbound:
         condition: service_started
   unbound:
-    image: mvance/unbound:1.18.0@sha256:606dbdc725f87343f72768df487cfe5923a77366b8afb4d83e6961f464fbcff6
+    image: ghcr.io/klutchell/unbound:v1.23.0
     volumes:
       - socket:/var/run/socket:rw
       - ./test_assets/unbound.conf:/opt/unbound/etc/unbound/unbound.conf
