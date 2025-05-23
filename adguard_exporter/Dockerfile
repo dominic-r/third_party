@@ -3,7 +3,7 @@ FROM alpine:3.21.3@sha256:a8560b36e8b8210634f77d9f7f9efd7ffa463e380b75e2e74aff45
 RUN apk add ca-certificates
 
 # Stage 2: Build the adguard-exporter
-FROM golang:1.24.3@sha256:baf611fd7d082c08acbf365005971f201017d34ca2e80e6f3415577f82c44af2 AS builder
+FROM golang:1.24.3@sha256:795a40cbe36a11e39b0709eb98d7aaa8d312d60336d863a0ef1c8aff07c1b3e0 AS builder
 WORKDIR /build
 COPY . /build
 RUN go mod download
