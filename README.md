@@ -8,4 +8,4 @@ Reasons for importing:
 - I want tighter control over the code for security or reliability.
 - It's easier to keep track of changes this way.
 
-See internal reference at https://confluence.sdko.net/spaces/SDKO/pages/360473/Imported+Modules
+See: https://confluence.sdko.net/spaces/SDKO/pages/360473/Imported+Modules
